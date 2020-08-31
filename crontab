@@ -1,2 +1,1 @@
-echo
-45 3 * * 6 crontab >/dev/null 2>&1
+45 3 * * 6 /home/alex/Project1/script.sh
