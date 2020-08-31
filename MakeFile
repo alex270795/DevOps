@@ -1,1 +1,6 @@
+.PHONY: run,sync
+run:
+        docker run --rm -d -p 80:80 nginx
 
+sync:
+        wget -mkEpnp https://www.chiark.greenend.org.uk/~sgtatham/bugs-ru.html
