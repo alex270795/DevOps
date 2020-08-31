@@ -1,0 +1,2 @@
+echo
+45 3 * * 6 crontab >/dev/null 2>&1
